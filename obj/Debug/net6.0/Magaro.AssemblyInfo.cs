@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Magaro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbfe04750ba0852a98e15bbfe998bc9a4f3443e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c4a8145bf6c222a0b5de72a9084c263bad97fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Magaro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Magaro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
