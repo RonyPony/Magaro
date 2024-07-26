@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projectos\\magaroBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\model\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:model\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\interface\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:interface\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\interface\\ichat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:interface\\ichat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaroback\\magaroback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:magaroback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\Model\\Message.cs",
+              "RelativeDocumentMoniker": "Model\\Message.cs",
+              "ToolTip": "C:\\projectos\\magaroBack\\Model\\Message.cs",
+              "RelativeToolTip": "Model\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T19:10:29.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "magaroBack.csproj",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\magaroBack.csproj",
+              "RelativeDocumentMoniker": "magaroBack.csproj",
+              "ToolTip": "C:\\projectos\\magaroBack\\magaroBack.csproj",
+              "RelativeToolTip": "magaroBack.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-24T19:08:33.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\projectos\\magaroBack\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T19:07:00.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\projectos\\magaroBack\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T12:51:10.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\Model\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Model\\ChatHub.cs",
+              "ToolTip": "C:\\projectos\\magaroBack\\Model\\ChatHub.cs",
+              "RelativeToolTip": "Model\\ChatHub.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAiwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T18:46:51.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\projectos\\magaroBack\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T18:45:42.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IChat.cs",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\Interface\\IChat.cs",
+              "RelativeDocumentMoniker": "Interface\\IChat.cs",
+              "ToolTip": "C:\\projectos\\magaroBack\\Interface\\IChat.cs",
+              "RelativeToolTip": "Interface\\IChat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T19:19:24.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hub.cs",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\Interface\\hub.cs",
+              "RelativeDocumentMoniker": "Interface\\hub.cs",
+              "ToolTip": "C:\\projectos\\magaroBack\\Interface\\hub.cs",
+              "RelativeToolTip": "Interface\\hub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T19:51:53.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\projectos\\magaroBack\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\projectos\\magaroBack\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T12:51:13.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
