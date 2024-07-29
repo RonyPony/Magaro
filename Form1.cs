@@ -9,6 +9,8 @@ using System.Linq;
 using System.Media;
 using System.Net;
 using System.Net.Http;
+using System.Runtime.Remoting.Messaging;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -33,11 +35,39 @@ namespace mangaroUI
             timer1.Start();
             InitializeSignalR();
         }
+        public async Task updateUserListAsync()
+        {
+            string url = "https://localhost:7080/getOnlineUsers";
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    // Realiza la solicitud HTTP GET
+                    HttpResponseMessage response = await client.GetAsync(url);
+
+                    // Asegúrate de que la respuesta fue exitosa
+                    response.EnsureSuccessStatusCode();
+
+                    // Lee el contenido de la respuesta como una cadena
+                    string responseData = await response.Content.ReadAsStringAsync();
+                    responseData = responseData.Replace("\"]","X");
+                    checkedListBox1.Items.Add(responseData);
+                }
+                catch (HttpRequestException e)
+                {
+                    // Maneja cualquier error que ocurra durante la solicitud HTTP
+                    Console.WriteLine($"Error: {e.Message}");
+                    
+                }
+            }
+        }
         private async void InitializeSignalR()
         {
             // Configura la conexión al servidor de SignalR
             connection = new HubConnectionBuilder()
-                .WithUrl("http://216.172.100.170:8088/chathub")
+                //.WithUrl("http://216.172.100.170:8088/chathub") production
+                .WithUrl("https://localhost:7080/chathub?username="+username)
+                
                 .Build();
 
             // Suscríbete a un método del hub para recibir mensajes
@@ -53,6 +83,17 @@ namespace mangaroUI
                     appendMessage("@" + user + ": " + message + Environment.NewLine);
                 }));
             });
+            
+            connection.On<string>("UserConnected", (user) =>
+            {
+                // Asegúrate de actualizar el TextBox en el hilo de la interfaz de usuario
+                this.Invoke((Action)(() =>
+                {
+                    PlaySystemSound();                    
+                    status.Text = "# Nuevo usuario conectado" + user;
+                    updateUserListAsync();
+                }));
+            });
 
 
 
@@ -66,6 +107,7 @@ namespace mangaroUI
             {
                 MessageBox.Show("No se pudo conectar a SignalR: " + ex.Message);
             }
+            //await connection.InvokeAsync("UserConnected", username);
         }
 
         private void PlaySystemSound()
@@ -82,6 +124,7 @@ namespace mangaroUI
 
         private async void button1_Click(object sender, EventArgs e)
         {
+            
             string message = textBox2.Text;
             await connection.InvokeAsync("SendMessage", username, message);
 

@@ -8,13 +8,16 @@ namespace magaroBack.Model
 {
     public class ChatHub : Hub,IChatHub
     {
+        private readonly static ConnectionMapping<string> _connections = new ConnectionMapping<string>();
+
+
 
         public ChatHub()
         {
         }
         public bool saveMessage(Message message)
         {
-            string connectionString = "Server=DESKTOP-V1NJ5R4\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
+            string connectionString = "Server=POTRO_COLORADO\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
 
             string query = "INSERT INTO chat (message, username,senddate) VALUES (@message, @username,@senddate)";
 
@@ -60,7 +63,7 @@ namespace magaroBack.Model
         public IEnumerable<Message> readAllMessages()
         {
             var entities = new List<Message>();
-            string connectionString = "Server=DESKTOP-V1NJ5R4\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
+            string connectionString = "Server=POTRO_COLORADO\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
 
 
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -84,6 +87,43 @@ namespace magaroBack.Model
             }
 
             return entities;
+        }
+
+        public override Task OnConnectedAsync()
+        {
+            var httpContext = Context.GetHttpContext();
+            var username = httpContext.Request.Query["username"].ToString();
+
+            if (!string.IsNullOrEmpty(username))
+            {
+                _connections.Add(username, Context.ConnectionId);
+                Clients.All.SendAsync("UserConnected", username);
+            }
+
+
+            return base.OnConnectedAsync();
+        }
+
+        public override Task OnDisconnectedAsync(Exception exception)
+        {
+            var httpContext = Context.GetHttpContext();
+            var username = httpContext.Request.Query["username"].ToString();
+
+            if (!string.IsNullOrEmpty(username))
+            {
+
+                _connections.Remove(username, Context.ConnectionId);
+
+                // Notificar a todos los clientes sobre la desconexión
+                Clients.All.SendAsync("UserDisconnected", username);
+            }
+
+            return base.OnDisconnectedAsync(exception);
+        }
+
+        public IEnumerable<string> GetOnlineUsers()
+        {
+            return _connections.GetAllKeys();
         }
     }
     

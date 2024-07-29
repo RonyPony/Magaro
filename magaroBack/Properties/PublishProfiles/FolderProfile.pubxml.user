@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\tmp</_PublishTargetUrl>
-    <History>True|2024-07-25T13:02:25.3128557Z||;True|2024-07-25T14:52:27.7019185+02:00||;True|2024-07-25T14:48:58.4936274+02:00||;True|2024-07-25T14:28:33.3195582+02:00||;</History>
+    <History>True|2024-07-29T19:13:50.9866893Z||;True|2024-07-25T15:02:25.3128557+02:00||;True|2024-07-25T14:52:27.7019185+02:00||;True|2024-07-25T14:48:58.4936274+02:00||;True|2024-07-25T14:28:33.3195582+02:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

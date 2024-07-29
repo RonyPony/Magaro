@@ -3349,19 +3349,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\itla\\.nuget\\packages\\": {}
+    "C:\\Users\\user1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projectos\\magaroBack\\magaroBack.csproj",
+      "projectUniqueName": "C:\\projectos\\Magaro\\magaroBack\\magaroBack.csproj",
       "projectName": "magaroBack",
-      "projectPath": "C:\\projectos\\magaroBack\\magaroBack.csproj",
-      "packagesPath": "C:\\Users\\itla\\.nuget\\packages\\",
-      "outputPath": "C:\\projectos\\magaroBack\\obj\\",
+      "projectPath": "C:\\projectos\\Magaro\\magaroBack\\magaroBack.csproj",
+      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+      "outputPath": "C:\\projectos\\Magaro\\magaroBack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\itla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

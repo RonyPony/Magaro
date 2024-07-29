@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("magaroBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbac52a2d9d18da7a9a9dd57de6aaced0b785070")]
 [assembly: System.Reflection.AssemblyProductAttribute("magaroBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("magaroBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

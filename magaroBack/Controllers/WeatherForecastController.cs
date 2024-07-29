@@ -35,5 +35,13 @@ namespace magaroBack.Controllers
             IEnumerable<Message> data = serv.readAllMessages();
             return Ok(data);
         }
+
+        [HttpGet("/getOnlineUsers")]
+        public IActionResult GetOnline()
+        {
+           
+            IEnumerable<string> data = serv.GetOnlineUsers();
+            return Ok(data);
+        }
     }
 }
