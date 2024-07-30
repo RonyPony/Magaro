@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\projectos\\Magaro\\magaroBack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaro\\magaroback\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaro\\magaroback\\model\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:model\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaro\\magaroback\\model\\connectionmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:model\\connectionmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaro\\magaroback\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA422356-E221-49E7-833D-D457587C2959}|magaroBack.csproj|c:\\projectos\\magaro\\magaroback\\interface\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "connectionMapping.cs",
               "DocumentMoniker": "C:\\projectos\\Magaro\\magaroBack\\Model\\connectionMapping.cs",
               "RelativeDocumentMoniker": "Model\\connectionMapping.cs",
@@ -62,8 +62,7 @@
               "RelativeToolTip": "Model\\connectionMapping.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:51:14.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:51:14.477Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Model\\Message.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T19:10:29.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T19:10:29.343Z"
             },
             {
               "$type": "Document",
@@ -92,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\projectos\\Magaro\\magaroBack\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\projectos\\Magaro\\magaroBack\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAADwvywAAAAIAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T19:07:00.606Z",
               "EditorCaption": ""
@@ -117,13 +115,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\projectos\\Magaro\\magaroBack\\Model\\ChatHub.cs",
               "RelativeDocumentMoniker": "Model\\ChatHub.cs",
               "ToolTip": "C:\\projectos\\Magaro\\magaroBack\\Model\\ChatHub.cs",
               "RelativeToolTip": "Model\\ChatHub.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAwwHcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T18:46:51.431Z",
               "EditorCaption": ""
@@ -138,8 +136,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:45:42.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T18:45:42.383Z"
             },
             {
               "$type": "Document",
@@ -163,8 +160,7 @@
               "RelativeToolTip": "Interface\\hub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T19:51:53.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T19:51:53.208Z"
             },
             {
               "$type": "Document",

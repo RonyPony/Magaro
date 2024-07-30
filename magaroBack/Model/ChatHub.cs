@@ -17,7 +17,7 @@ namespace magaroBack.Model
         }
         public bool saveMessage(Message message)
         {
-            string connectionString = "Server=POTRO_COLORADO\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
+            string connectionString = "Server=MINERD_01\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
 
             string query = "INSERT INTO chat (message, username,senddate) VALUES (@message, @username,@senddate)";
 
@@ -63,7 +63,7 @@ namespace magaroBack.Model
         public IEnumerable<Message> readAllMessages()
         {
             var entities = new List<Message>();
-            string connectionString = "Server=POTRO_COLORADO\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
+            string connectionString = "Server=MINERD_01\\SQLEXPRESS;Database=magaro;User Id=sa;Password=C0mpl3j0;";
 
 
             using (SqlConnection conn = new SqlConnection(connectionString))

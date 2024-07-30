@@ -21,17 +21,7 @@ namespace magaroBack.Controllers
         [HttpGet("/getAllMessages")]
         public IActionResult Get()
         {
-            List<Message> messages = new List<Message>();
-            for (int i = 0; i < 50; i++)
-            {
-                Message message = new Message
-                {
-                    message = "Este mensaje lo envio el usuario No." + i.ToString(),
-                    sendDate = DateTime.Now,
-                    username = "Usuario No." + i.ToString()
-                };
-                messages.Add(message);
-            }
+            
             IEnumerable<Message> data = serv.readAllMessages();
             return Ok(data);
         }
