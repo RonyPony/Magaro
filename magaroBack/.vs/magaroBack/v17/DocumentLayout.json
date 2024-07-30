@@ -50,20 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "connectionMapping.cs",
-              "DocumentMoniker": "C:\\projectos\\Magaro\\magaroBack\\Model\\connectionMapping.cs",
-              "RelativeDocumentMoniker": "Model\\connectionMapping.cs",
-              "ToolTip": "C:\\projectos\\Magaro\\magaroBack\\Model\\connectionMapping.cs",
-              "RelativeToolTip": "Model\\connectionMapping.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:51:14.477Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -96,10 +84,22 @@
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\projectos\\Magaro\\magaroBack\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBcAAAAMAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T19:07:00.606Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "connectionMapping.cs",
+              "DocumentMoniker": "C:\\projectos\\Magaro\\magaroBack\\Model\\connectionMapping.cs",
+              "RelativeDocumentMoniker": "Model\\connectionMapping.cs",
+              "ToolTip": "C:\\projectos\\Magaro\\magaroBack\\Model\\connectionMapping.cs",
+              "RelativeToolTip": "Model\\connectionMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:51:14.477Z"
             },
             {
               "$type": "Document",
@@ -123,8 +123,7 @@
               "RelativeToolTip": "Model\\ChatHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:46:51.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T18:46:51.431Z"
             },
             {
               "$type": "Document",

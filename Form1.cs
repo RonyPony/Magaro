@@ -51,10 +51,18 @@ namespace mangaroUI
                     string responseData = await response.Content.ReadAsStringAsync();
 
                     string[] usrs = responseData.Split(',');
-                    checkedListBox1.Items.Clear();
+                    listView1.Items.Clear();
                     foreach (string item in usrs)
                     {
-                        checkedListBox1.Items.Add(cleanString(item));
+                        string user = cleanString(item);
+                        if (user.Trim() == username)
+                        {
+                            listView1.Items.Add(user+" (Yo)");
+                        }
+                        else
+                        {
+                            listView1.Items.Add(user);
+                        }
                     }
                 }
                 catch (HttpRequestException e)
@@ -99,30 +107,34 @@ namespace mangaroUI
             connection.On<string>("UserConnected", (user) =>
             {
                 // Asegúrate de actualizar el TextBox en el hilo de la interfaz de usuario
-                if (user!=username)
-                {
+                
                     this.Invoke((Action)(() =>
                     {
-                        PlaySystemSound();
-                        notificacion.Text = "Nuevo usuario conectado > " + user;
-                        appendMessage("# " + user + " se ha unido al chat");
+                        if (user!=username)
+                        {
+                            PlaySystemSound();
+                            notificacion.Text = "Nuevo usuario conectado > " + user;
+                            appendMessage("# " + user + " se ha unido al chat");
+                        }
                         updateUserListAsync();
                     }));
-                }
+                
             });
             connection.On<string>("UserDisconnected", (user) =>
             {
                 // Asegúrate de actualizar el TextBox en el hilo de la interfaz de usuario
-                if (user!=username)
-                {
+                
                     this.Invoke((Action)(() =>
                     {
-                        PlaySystemSound();
-                        notificacion.Text = "Usuario Desconectado > " + user;
-                        appendMessage("# " + user + " ha salido del chat");
+                        if (user!=username)
+                        {
+                            PlaySystemSound();
+                            notificacion.Text = "Usuario Desconectado > " + user;
+                            appendMessage("# " + user + " ha salido del chat");
+                        }
                         updateUserListAsync();
                     }));
-                }
+                
             });
 
 
@@ -245,6 +257,7 @@ namespace mangaroUI
             textBox1.Clear();
             string newData = await reloadMessagesAsync();
             verifyNewMessage(newData.Length);
+            
         }
 
         private async Task verifyNewMessage(int newDataLenth)

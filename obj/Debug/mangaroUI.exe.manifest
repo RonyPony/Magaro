@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mangaroUI.exe" size="35808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mangaroUI.exe" size="38368">
       <assemblyIdentity name="mangaroUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uHslywcVQdOA6pZvSmq8bg1G0lFFjOAuuQkyi70LCoo=</dsig:DigestValue>
+        <dsig:DigestValue>krjDeaJJXNHiXBUf7WBbVRHZf2hskxVrAsUXiT/kapg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
