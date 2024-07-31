@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla de Chat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                Pantalla de Chat
+            </div>
+            <div class="chat-messages">
+                <div class="chat-message user">
+                    <div class="message-content">
+                        Hola, ¿cómo estás?
+                    </div>
+                </div>
+                <div class="chat-message bot">
+                    <div class="message-content">
+                        ¡Hola! Estoy bien, gracias. ¿Y tú?
+                    </div>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input #messagecontent type="text" placeholder="Escribe un mensaje...">
+                <button (click)="sendMesage()">Enviar</button>
+            </div>
+        </div>
+        <div class="user-list-container">
+            <div class="user-list-header">
+                Usuarios Conectados
+            </div>
+            <ul class="user-list">
+                <li>Usuario 1</li>
+                <li>Usuario 2</li>
+                <li>Usuario 3</li>
+                <li>Usuario 4</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
