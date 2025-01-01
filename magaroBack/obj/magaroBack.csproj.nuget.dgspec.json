@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projectos\\Magaro\\magaroBack\\magaroBack.csproj": {}
+    "C:\\projects\\Magaro\\magaroBack\\magaroBack.csproj": {}
   },
   "projects": {
-    "C:\\projectos\\Magaro\\magaroBack\\magaroBack.csproj": {
+    "C:\\projects\\Magaro\\magaroBack\\magaroBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projectos\\Magaro\\magaroBack\\magaroBack.csproj",
+        "projectUniqueName": "C:\\projects\\Magaro\\magaroBack\\magaroBack.csproj",
         "projectName": "magaroBack",
-        "projectPath": "C:\\projectos\\Magaro\\magaroBack\\magaroBack.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\projectos\\Magaro\\magaroBack\\obj\\",
+        "projectPath": "C:\\projects\\Magaro\\magaroBack\\magaroBack.csproj",
+        "packagesPath": "C:\\Users\\leopardo\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Magaro\\magaroBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leopardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

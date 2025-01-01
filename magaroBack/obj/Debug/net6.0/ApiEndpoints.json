@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "magaroBack.Controllers.ChatController",
+    "Method": "Get",
+    "RelativePath": "getAllMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "magaroBack.Controllers.ChatController",
+    "Method": "GetOnline",
+    "RelativePath": "getOnlineUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
